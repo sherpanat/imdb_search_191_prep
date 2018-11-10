@@ -9,9 +9,9 @@
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
       <div id="movies">
-        <% @movies.each do |movie| %>
-          <h4><%= movie.title %></h4>
-          <p><%= movie.syllabus %></p>
+        <% @results.each do |result| %>
+          <h4><%= result.title %></h4>
+          <p><%= result.syllabus %></p>
         <% end %>
       </div>
     </div>
